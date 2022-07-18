@@ -16,7 +16,7 @@ header{
     margin:auto;
 }
 .Image{
-    background-image:var(--background-color), url("../Image/Photo.jpg");
+    background-image:var(--background-color), url("./Image/Photo.jpg");
     height:350px;
 }
 .header{
