@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;;
+}
+:root{
+    --button-color:linear-gradient(to right,rgb(4, 100, 244),rgb(13, 238, 250));
+    --background-color:linear-gradient(rgba(0, 217, 255, 0.208),rgba(255, 149, 0, 0.304));
+    --hover-color:linear-gradient(to right,rgba(13, 238, 250),rgb(4, 100, 244))
+}
+header{
+    height: auto;
+    width:900px;
+    text-align: center;
+    margin:auto;
+}
+.Image{
+    background-image:var(--background-color), url("../Image/Photo.jpg");
+    height:350px;
+}
+.header{
+    padding-top:80px;
+    color:white;
+    font-size: 35px;
+}
+.header-p{
+    color:white;
+    padding-bottom: 20px;
+}
+.primary{
+    padding: 5px;
+    font-weight:bold;
+    background:var(--button-color);
+    border: none;
+    border-radius: 3px;
+    color:white;
+    
+}
+.primary:hover{
+    background:var(--hover-color);
+}
+section{
+    width:900px;
+    margin:auto;
+    height:auto ;
+    text-align: center;
+    background:rgba(125, 124, 124, 0.546);
+    display: block;
+
+}
+.donate{
+    padding-top:20px;
+    color:white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.paragraph{
+    padding-top:10px;
+    color:white;
+
+}
+.taka{
+    padding-top:20px;
+
+    
+}
+.taka ul {
+    display:flex;
+    padding-left: 200px;
+
+}
+.taka li{
+    list-style: none;
+    margin:10px;
+    background:var(--button-color);
+    padding:20px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px rgba(32, 32, 32, 0.678);
+    border: none;
+}
+#color{
+    background:var(--hover-color);
+    color:white;
+}
+.amount{
+    background:none;
+    border:none;
+    color:azure;
+ 
+}
+hr{
+    width: 60%;
+    margin:auto;
+}
+.primary-1{
+    margin-top: 10px;
+    padding:5px;
+    border:none;
+    border-radius: 3px;
+    background:var(--button-color);
+    color:white;
+    font-weight: bolder;
+}
+.primary-1:hover{
+    background:var(--hover-color);
+    color: white;
+}
+.plan{
+    padding-top:70px;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.head2{
+    padding-top: 10px;
+    color: white;
+}
+.helpline{
+    margin:0 20px;
+    padding:5px 20px 50px 20px; 
+}
+.helpline ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.helpline li{
+    color:black;
+    margin: 7px;
+    padding:10px
+}
+.site-1{
+    background:#EDF5F6;
+    border:none;
+    border-radius: 1px;
+    
+}
+.site-2{
+    background:#FFEEEE;
+    border:none;
+    border-radius: 3px;
+}
+.site-3{
+    background:#FFF4D6;
+    border:none;
+    border-radius: 3px;
+}
+.fa-hamburger{
+    padding-left: 10px;
+}
